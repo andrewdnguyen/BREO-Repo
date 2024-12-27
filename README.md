@@ -14,11 +14,11 @@ The data used in this proof-of-concept included the following:
 
 A full article on this work was published in [ArchDaily](https://www.archdaily.com/1008979/creating-energy-efficient-buildings-the-role-of-human-interaction-and-sensory-technology).
 
-#Setup
+# Setup
 This section provides a basic guide to setting up this project, however, it should be noted that this has not been tested outside of a specific office environment and therefore unpredictable issues may arise.
 
-##Pre-requisites
+## Pre-requisites
 To run this application, you will need to register an account and recieve an API key from the above data sources listed in the previous section. These should then be added to a .env file created from example.env. The data is also taken within constraints of Los Angeles, and therefore some geographic parameters may need to be updated if your location is outside of this boundary. This project was developed using Node v16 and packages have not been tested within more recent versions.
 
-##Installation and Running
+## Installation and Running
 This process should be similar to running many other web applications. From your preferred CLI, change directories to this repo, run an `npm i`, and then from the top level of the repo run `node index.js`.
